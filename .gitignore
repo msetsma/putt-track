@@ -162,3 +162,6 @@ cython_debug/
 # Add the Visual Studio Code specific files/directories
 .vscode/
 myenv/
+
+# local videos are too loarge to upload to github
+*.mp4
