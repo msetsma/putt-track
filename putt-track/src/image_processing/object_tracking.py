@@ -62,7 +62,7 @@ class ObjectTracker:
             # Set a circularity threshold (e.g., 0.8) to filter non-round objects
             if radius > 10 and circularity > 0.8:
                 cv2.circle(frame, (int(x), int(y)), int(radius), color, 2)
-
+                
         return frame, mask
 
     def run(self):
